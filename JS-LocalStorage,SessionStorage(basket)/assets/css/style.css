@@ -1,0 +1,86 @@
+/* .search-input{
+    width: 492px;
+    border-radius: 70px;
+}
+.popular-car{
+    size: 16px;
+    font-weight: 600;
+    color: #90A3BF; 
+}
+.container{
+    background-color: #90A3BF; 
+    padding-top: 20px;
+    position: relative;
+    max-width: 100%;
+}
+.fav{
+    border-radius: 50%;
+    padding: 5px 5px;
+}
+.basket{
+    border-radius: 50%;
+    padding: 3px;
+}
+.settings{
+    padding: 3px;
+}
+.car-images{
+    width: 248px;
+    height: 100px;
+}
+.row{
+    max-width: 100%;
+    margin: auto;
+}
+.navbar{
+    margin-top: 20px;
+    position: absolute;
+} */
+
+
+
+
+
+
+
+.navbar {
+
+    margin-bottom: 30px; 
+    padding: 15px; 
+    background-color: #f8f9fa; 
+    border-bottom: 1px solid #ddd; 
+}
+.search-input {
+    width: 50%; 
+    height: 40px; 
+    border-radius: 20px; 
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+.popular-car {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+
+.cards .card {
+    margin-bottom: 20px;
+    border-radius: 10px; 
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.navbar {
+    background-color: #ffffff; 
+    border-bottom: 2px solid #ddd; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+.car-images{
+    width: 248px;
+    height: 100px;
+}
+
+.container{
+    max-width: 1200px;
+}
