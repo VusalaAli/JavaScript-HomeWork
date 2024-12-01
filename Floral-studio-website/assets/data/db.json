@@ -1,0 +1,46 @@
+{
+    "flowers": [
+    {
+      "id": "1",
+      "title": "Dahlia",
+      "price": 45,
+      "image": "https://mobirise.com/extensions/floram4/floral-studio/assets/images/b4.jpg",
+      "createdAt": "2024-11-22"
+    },
+    {
+     "id": "2",
+      "title": "Mazus",
+      "price": 35,
+      "image": "https://mobirise.com/extensions/floram4/floral-studio/assets/images/b2.jpg",
+      "createdAt": "2024-11-22"
+    },
+    {
+      "id": "3",
+      "title": "Pansies",
+      "price": 50,
+      "image": "https://mobirise.com/extensions/floram4/floral-studio/assets/images/b3.jpg",
+      "createdAt": "2024-11-22"
+    },
+    {
+     "id": "4",
+      "title": "Roses",
+      "price": 63,
+      "image": "https://m.media-amazon.com/images/I/41FPn2Fkp9L._AC_.jpg",
+      "createdAt": "2024-11-22"
+    },
+    {
+     "id": "5",
+      "title": "Plumeria",
+      "price": 57,
+      "image": "https://www.amazingclubs.com/images2/flower-01.jpg",
+      "createdAt": "2024-11-22"
+    },
+    {
+      "id": "6",
+      "title": "Matthiola incana",
+      "price": 48,
+      "image": "https://www.bloomsbythebox.com/img/product/xlarge/00293a__stock_pink_flowers.jpg",
+      "createdAt": "2024-11-22"
+    }
+  ]
+}

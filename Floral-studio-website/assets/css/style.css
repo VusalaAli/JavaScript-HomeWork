@@ -1,0 +1,349 @@
+*{
+  box-sizing: border-box;
+}
+.logo {
+  font-family: "Quicksand", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  color: white;
+  margin: auto;
+}
+.container-fluid {
+  background-color: rgba(16, 99, 78, 0.9);
+  height: 70px;
+  display: flex !important;
+  justify-content: space-between !important;
+}
+.nav-link {
+  font-family: "Quicksand", sans-serif;
+  color: white;
+}
+.carousel-item {
+  position: relative;
+}
+.carousel-item h2 {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+  font-size: 46px;
+  color: #1b745e;
+}
+.carousel-item p {
+  position: absolute;
+  top: 45%;
+  width: 100%;
+  text-align: center;
+  font-family: "Crimson Text", serif;
+  font-style: italic;
+  color: #1b745e;
+  font-size: 18px;
+}
+#services .banner {
+  display: flex;
+  justify-content: center;
+  margin: 4rem;
+}
+#services .banner-left {
+  background-color: #1b745e;
+  width: 100%;
+  position: relative;
+}
+#services .banner-left h2 {
+  position: absolute;
+  top: 30%;
+  width: 100%;
+  text-align: left;
+  left: 30%;
+  font-family: "Quicksand", sans-serif;
+  color: white;
+  font-size: 46px;
+}
+#services .banner-left p {
+  position: absolute;
+  top: 45%;
+  width: 100%;
+  text-align: left;
+  left: 30%;
+  font-family: "Quicksand", sans-serif;
+  color: white;
+}
+.read-more-btn{
+  position: absolute;
+  top: 65%;
+  left: 30%;
+  font-family: "Quicksand", sans-serif;
+  color: #1b745e;
+  background-color: #d8e3d5;
+  border: none;
+  width: 160px;
+  height: 45px;
+}
+.read-more-btn:hover {
+  background-color: #c4cfbf;
+  transition: 0.5s;
+}
+#services {
+  background-image: url(https://mobirise.com/extensions/floram4/floral-studio/assets/images/background2.jpg);
+  padding: 140px;
+  margin-top: 10rem;
+}
+#carouselExample {
+  position: relative;
+}
+.navbar {
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+  padding: 0;
+}
+.collapse {
+  display: flex;
+  justify-content: flex-end;
+}
+#flowers-pricing .container{
+  max-width: 1100px;
+}
+.cards img{
+  width: 300px;
+  height: 300px;
+ 
+}
+#flowers-pricing{
+  background-image: url(https://mobirise.com/extensions/floram4/floral-studio/assets/images/background1.jpg);
+  padding: 140px;
+  margin-top: 10rem;
+}
+.title{
+  margin-bottom: 80px;
+}
+.title h3{
+  color: #1b745e;
+  font-family: "Quicksand", sans-serif;
+  font-size: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+.title p{
+  color: #1b745e;
+  font-family: "Crimson Text", serif;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.col-sm-12 button{
+  font-family: "Quicksand", sans-serif;
+  color: #1b745e;
+  background-color: #d8e3d5;
+  border: none;
+  width: 150px;
+  height: 45px;
+  position: absolute;
+  left: 24%;
+  margin-top: 1rem;
+}
+.col-sm-12 button:hover{
+  background-color: #c4cfbf;
+  transition: 0.5s;
+}
+.parag{
+  text-align: center;
+  font-family: "Crimson Text", serif;
+  font-style: italic;
+  color: #1b745e;
+  font-size: 18px;
+  margin-top: 4rem;
+}
+.title-parag{
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+  font-size: 46px;
+  color: #1b745e;
+}
+.cards, .events-cards{
+  margin-top: 4rem;
+}
+#events-pricing .col-sm-12{
+  background-color: #fef1e6;
+  border: 1px solid #1b745e;
+  width: 320px;
+  height: 380px;
+}
+.events-cards .row{
+  gap: 3rem;
+}
+.card-inner{
+  padding: 70px 45px;
+  position: relative;
+}
+.card-inner h6{
+  font-family: "Crimson Text", serif;
+  font-size: 40px;
+  color: #1b745e;
+  text-align: center;
+}
+.card-inner span{
+  font-family: "Crimson Text", serif;
+  font-size: 18px;
+  color: #1b745e;
+  text-align: center;
+}
+.events-name{
+  font-family: "Quicksand", sans-serif;
+  font-size: 22px;
+  color: #1b745e;
+  text-align: center;
+}
+.card-inner .paragraph{
+  font-family: "Quicksand", sans-serif;
+  font-size: 16px;
+  color: #1b745e;
+  text-align: center;
+  width: 220px;
+}
+#contacts{
+  margin-top: 10rem;
+  height: 100vh;
+  max-width: 100%;
+}
+#contacts .title-parag{
+  margin-bottom: 4rem;
+}
+#contacts img{
+  width: 100%;
+  height: 356px;
+}
+#contacts h5{
+  font-family: "Quicksand", sans-serif;
+  font-size: 22px;
+  color: #1b745e;
+  text-align: center;
+  margin-top: 1rem;
+}
+#contacts h6{
+  font-family: "Quicksand", sans-serif;
+  font-style: italic;
+  font-size: 16px;
+  color: #1b745e;
+  text-align: center;
+}
+.angry-grid {
+  display: grid; 
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 0px;
+  height: 100%;
+}
+ 
+#item-0 {
+  grid-row-start: 1;
+  grid-column-start: 1;
+  grid-row-end: 2;
+  grid-column-end: 5;
+  position: relative;
+}
+#item-1 {
+  grid-row-start: 1;
+  grid-column-start: 5;
+  grid-row-end: 2;
+  grid-column-end: 6;
+}
+#item-2 {
+  grid-row-start: 1;
+  grid-column-start: 6;
+  grid-row-end: 2;
+  grid-column-end: 7; 
+}
+#item-3 { 
+  grid-row-start: 1;
+  grid-column-start: 7;
+  grid-row-end: 2;
+  grid-column-end: 8; 
+}
+#item-4 { 
+  grid-row-start: 1;
+  grid-column-start: 8;
+  grid-row-end: 2;
+  grid-column-end: 9; 
+}
+#footer{
+  background-color: #e0ecdc;
+  height: 300px;
+
+}
+.email{
+  width: 316px;
+  height: 48px;
+  border: none;
+  border-bottom: 1px solid #1b745e;
+  background-color: transparent;
+  font-family: "Crimson Text", serif;
+  font-style: italic;
+  color: #1b745e;
+  outline: none;
+}
+.send-btn{
+  width: 100px;
+  height: 48px;
+  border: none;
+  border-bottom: 1px solid #1b745e;
+  background-color: #d8e3d5;
+  font-family: "Quicksand", sans-serif;
+  color: #1b745e;
+  font-size: 13px;
+  position: absolute;
+}
+.send-btn:hover{
+  background-color: #c4cfbf;
+  transition: 0.5s;
+}
+.item-0-inner{
+  position: absolute;
+  left: 35%;
+  top: 25%;
+}
+.mary-byrd{
+  width: 76px;
+  height: 32px;
+}
+.angry-grid li{
+  list-style-type: none;
+  text-align: center;
+}
+.angry-grid a{
+  text-decoration: none;
+  font-family: "Crimson Text", serif;
+  font-style: italic;
+  color: #1b745e;
+  font-size: 18px;
+  line-height: 2.5rem;
+  font-weight: 400;
+}
+.angry-grid p{
+  font-family: "Quicksand", sans-serif;
+  color: #1b745e;
+  font-size: 22px;
+  margin-top: 3rem;
+  text-align: center;
+}
+.input{
+  position: relative;
+}
+/* .cards a{
+  position: absolute;
+  z-index: 2;  
+} */
+.cards a i{
+  color: #d8e3d5;
+  position: absolute;
+  z-index: 2;
+  left: 10%;
+}
+.cards{
+  position: relative;
+}
+
