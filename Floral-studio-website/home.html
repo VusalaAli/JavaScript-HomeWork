@@ -24,7 +24,7 @@
 
 
     <nav class="navbar navbar-expand-lg bg-body-light">
-        <div class="container-fluid">
+        <div class="container">
             <h1 class="logo">Floral Studio</h1>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
                 aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -141,6 +141,9 @@
                 </div> -->
                 </div>
             </div>
+
+            <button class="add-btn">Add</button>
+
             <div id="events-pricing">
                 <p class="parag">Devoted to wonderful beauty</p>
                 <h3 class="title-parag">Events Pricing</h3>
@@ -194,35 +197,53 @@
 
 
 
-    <section id="contacts">
+
+    <section id="portret">
         <div class="container">
-            <p class="parag">Contacts</p>
-            <h3 class="title-parag">Our Team</h3>
-            <div class="banner d-flex justify-content-center">
-                <div class="banner-left">
-                    <img src="assets/images/portr1.jpg" alt="">
-                    <div class="banner-text">
-                        <h5>Velva Kopf</h5>
-                        <h6>Biologist</h6>
+            <div class="portret">
+                <p class="text-center"><i style="color: teal">Contacts</i></p>
+                <h1 class="text-center" style="color: teal">Our team</h1>
+            </div>
+            <div class="portre-page my-5">
+                <div class="portre-one">
+                    <img src="./assets/images/portr1.jpg" alt="" class="image" />
+                    <p class="text-center" style="color: teal; font-size: 25px">
+                        Velva Kopf
+                    </p>
+                    <p class="text-center"><i style="color: teal">Biologist</i></p>
+                    <div class="icons">
+                        <i class="icon fa-brands fa-facebook-f" style="color: #0d4601"></i>
+                        <i class="icon fa-brands fa-twitter" style="color: #0d4701"></i>
+                        <i class="icon fa-brands fa-instagram" style="color: #0d4701"></i>
                     </div>
                 </div>
-                <div class="banner-medium">
-                    <img src="assets/images/portr2.jpg" alt="">
-                    <div class="banner-text">
-                        <h5>Sarah Palmer</h5>
-                        <h6>Florist</h6>
+                <div class="portre-two">
+                    <img src="./assets/images/portr2.jpg" alt="" class="image" />
+                    <p class="text-center" style="color: teal; font-size: 25px">
+                        Sarah Palmer
+                    </p>
+                    <p class="text-center"><i style="color: teal">Florist</i></p>
+                    <div class="icons">
+                        <i class="icon fa-brands fa-facebook-f" style="color: #0d4601"></i>
+                        <i class="icon fa-brands fa-twitter" style="color: #0d4701"></i>
+                        <i class="icon fa-brands fa-instagram" style="color: #0d4701"></i>
                     </div>
                 </div>
-                <div class="banner-right">
-                    <img src="assets/images/portr3.jpg" alt="">
-                    <div class="banner-text">
-                        <h5>Jessica Swift</h5>
-                        <h6>Photographer</h6>
+                <div class="portre-three">
+                    <img src="./assets/images/portr3.jpg" alt="" class="image" />
+                    <p class="text-center" style="color: teal; font-size: 25px">
+                        Jessica Swift
+                    </p>
+                    <p class="text-center"><i style="color: teal">Photographer</i></p>
+                    <div class="icons">
+                        <i class="icon fa-brands fa-facebook-f" style="color: #0d4601"></i>
+                        <i class="icon fa-brands fa-twitter" style="color: #0d4701"></i>
+                        <i class="icon fa-brands fa-instagram" style="color: #0d4701"></i>
                     </div>
                 </div>
             </div>
-        </div>
 
+        </div>
     </section>
 
 
@@ -242,6 +263,9 @@
             </div>
         </div> -->
 
+
+
+
         <div class="angry-grid">
             <div id="item-0">
                 <div class="item-0-inner">
@@ -255,25 +279,64 @@
             <div id="item-1">
                 <p>About</p>
                 <ul>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Our Partners</a></li>
-                    <li><a href="#">Our Services</a></li>
+                    <li><a href="#" class="menu-item">About Us</a></li>
+                    <li><a href="#" class="menu-item">Our Partners</a></li>
+                    <li><a href="#" class="menu-item">Our Services</a></li>
                 </ul>
             </div>
             <div id="item-2">
                 <p>Contact</p>
                 <ul>
-                    <li><a href="#">Contact Us</a></li>
-                    <li><a href="#">FAQ Page</a></li>
-                    <li><a href="#">About Me</a></li>
+                    <li><a href="#" class="menu-item">Contact Us</a></li>
+                    <li><a href="#" class="menu-item">FAQ Page</a></li>
+                    <li><a href="#" class="menu-item">About Me</a></li>
                 </ul>
             </div>
             <div id="item-3">
                 <p>Follow Us</p>
             </div>
-            <div id="item-4">&nbsp;</div>
         </div>
     </footer>
+
+
+
+
+
+
+
+
+    <div class="modal fade"  id="edit-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div  class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Flower Add Form</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form class="w-75 m-auto" id="edit-form">
+                        <div class="mb-3">
+                            <label for="name">Flower Name</label>
+                            <input type="text" class="form-control" id="flower-name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="name">Flower Image</label>
+                            <input type="text" class="form-control" id="flower-image">
+                        </div>
+                        <div class="mb-3">
+                            <label for="name"> Flower Price</label>
+                            <input type="number" class="form-control" id="flower-price">
+                        </div>  
+                    </form>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="submit" class="btn btn-primary"  form="edit-form" id="save-changes" data-bs-dismiss="modal">  Save changes</button>
+                   </div>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-4" id="card-container">
+    
+</div>
 
 
     <!-- footer end -->
