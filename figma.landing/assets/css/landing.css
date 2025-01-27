@@ -1,0 +1,584 @@
+/* NAVBAR */
+nav {
+  background-color: #202430;
+  height: 78px;
+}
+.logo {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1rem;
+}
+.login-signup {
+  display: flex;
+}
+.nav-list ul {
+  display: flex;
+  gap: 1rem;
+}
+.border {
+  width: 2px;
+  background-color: white;
+  height: 48px;
+}
+.nav-list ul li a {
+  text-decoration: none;
+  list-style-type: none;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Epilogue", sans-serif;
+}
+.login-signup a {
+  text-decoration: none;
+  list-style-type: none;
+  padding-right: 2rem;
+  color: #4640de;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: "Epilogue", sans-serif;
+  padding-top: 1rem;
+}
+.signup-btn {
+  margin-left: 1rem;
+  width: 108px;
+  height: 50px;
+  border: none;
+  background-color: #4640de;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: "Epilogue", sans-serif;
+  color: white;
+}
+/* SECTION 1 */
+.search-job {
+  display: flex;
+  background-color: #fff;
+  width: 852px;
+  height: 90px;
+  align-items: center;
+  padding-left: 2rem;
+  gap: 2rem;
+}
+#header {
+  background-color: #202430;
+  padding-bottom: 5rem;
+}
+#header h1 {
+  color: white;
+  font-size: 72px;
+  font-weight: 600;
+  font-family: "Epilogue", sans-serif;
+  padding-top: 3rem;
+}
+#header h1 span {
+  color: #26a4ff;
+}
+#header p {
+  color: white;
+  opacity: 70%;
+  font-weight: 400;
+  font-size: 20px;
+  font-family: "Epilogue", sans-serif;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+.search-input input {
+  border: none;
+  border-bottom: 2px solid #d6ddeb;
+  color: #7c8493;
+  font-family: "Epilogue", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  outline: none;
+}
+.place-input input {
+  border: none;
+  border-bottom: 2px solid #d6ddeb;
+  color: #25324b;
+  font-family: "Epilogue", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  outline: none;
+}
+.search-btn {
+  border: none;
+  width: 209px;
+  height: 57px;
+  background-color: #4640de;
+  color: white;
+  font-weight: 700;
+  font-size: 18px;
+  font-family: "Epilogue", sans-serif;
+}
+.place-input {
+  position: relative;
+}
+.place-input .down {
+  position: absolute;
+  right: -5px;
+}
+/* SECTION 2 */
+#companies {
+  background-color: #202430;
+  padding-bottom: 5rem;
+  display: flex;
+  align-items: center;
+}
+#companies p {
+  color: white;
+  padding-bottom: 1rem;
+  font-family: "Epilogue", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  opacity: 50%;
+}
+.companies {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.companies .image {
+  opacity: 30%;
+}
+/* SECTION 3 */
+#category {
+  background-color: #202430;
+  padding-bottom: 5rem;
+}
+#category h2 {
+  color: white;
+  font-size: 48px;
+  font-weight: 600;
+  font-family: "Epilogue", sans-serif;
+  padding-top: 3rem;
+  margin: 0;
+}
+#category h2 span {
+  color: #26a4ff;
+}
+.show p {
+  color: #4640de;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "Epilogue", sans-serif;
+  margin: 0;
+}
+.show {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+/* SECTION 4 */
+.cards .row .col-3 {
+  background-color: white;
+  width: 300px; 
+  height: 214px;
+  padding: 2rem;
+}
+.cards .row{
+  padding-top: 3rem;
+  gap: 2rem;
+}
+.next{
+  display: flex;
+  gap: 1rem;
+}
+.next p{
+  margin: 0;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Epilogue", sans-serif;
+}
+.cards .row .col-3 h3{
+  padding-top: 2rem;
+  font-size: 24px;
+  font-weight: 600;
+  font-family: "Epilogue", sans-serif;
+}
+/* SECTION 5 */
+#dashboard{
+  background-color: #202430;
+  padding-bottom: 5rem;
+}
+.rectangle{
+  width: 100%;
+  height: 414px;
+}
+.rectangle-container{
+  position: relative;
+}
+.dashboard{
+  display: flex;
+  position: absolute;
+  top: 70px;
+  left: 12rem;
+  gap: 10rem;
+  z-index: 9999;
+}
+.dashboard-photo{
+  width: 564px;
+  height: 344px;
+}
+.dashboard-title h2{
+  font-size: 48px;
+  font-weight: 600;
+  font-family: "Epilogue", sans-serif;
+  color: white;
+  padding-bottom: 1rem;
+}
+.dashboard-title p{
+  padding-bottom: 1rem;
+  font-family: "Epilogue", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+}
+.free-signup-btn{
+  border: none;
+  width: 179px;
+  height: 50px;
+  background-color: white;
+  color: #4640DE;
+  font-family: "Epilogue", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+}
+/* SECTION 6 */
+#feature{
+  background-color: #202430;
+  padding-bottom: 5rem;
+}
+#feature h2{
+  color: white;
+  font-size: 48px;
+  font-weight: 600;
+  font-family: "Epilogue", sans-serif;
+  padding-top: 3rem;
+  margin: 0;
+}
+#feature h2 span{
+  color: #26a4ff;
+}
+.featured-cards .row{
+  padding-top: 3rem;
+  gap: 2rem;
+}
+.featured-cards .row .col-3{
+  width: 300px;
+  height: 283px;
+  background-color: white;
+  padding: 2rem;
+}
+.logo-btn{
+  display: flex;
+  justify-content: space-between;
+}
+.featured-cards h6{
+  font-family: "Epilogue", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  padding-top: 1rem;
+}
+.featured-cards p{
+  color: #7C8493;
+  font-family: "Epilogue", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+.logo-btn button{
+  width: 90px;
+  height: 34px;
+  border: 2px solid #4640DE;
+  background-color: white;
+}
+.marketing{
+  border: none;
+  border-radius: 80px;
+  width: 104px;
+  height: 30px;
+  background-color: #EB85331A;
+  padding-bottom: 4px;
+  padding-top: 4px;
+  padding-left: 16px;
+  padding-right: 16px;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: "Epilogue", sans-serif;
+  color: #FFB836;
+}
+.design{
+  background-color: #56CDAD1A;
+  width: 80px;
+  height: 30px;
+  border: none;
+  border-radius: 80px;
+  padding-bottom: 4px;
+  padding-top: 4px;
+  padding-left: 16px;
+  padding-right: 16px;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: "Epilogue", sans-serif;
+  color: #56CDAD;
+}
+.business{
+  background-color: #4640DE1A;
+  width: 95px;
+  height: 30px;
+  padding-bottom: 4px;
+  padding-top: 4px;
+  padding-left: 16px;
+  padding-right: 16px;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: "Epilogue", sans-serif;
+  color: #4640DE;
+  border: none;
+  border-radius: 80px;
+}
+.technology{
+  background-color: #FF65501A;
+  width: 114px;
+  height: 30px;
+  padding-bottom: 4px;
+  padding-top: 4px;
+  padding-left: 16px;
+  padding-right: 16px;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: "Epilogue", sans-serif;
+  color: #FF6550;
+  border: none;
+  border-radius: 80px;
+}
+/* SECTION 7 */
+#latest{
+  background-color: #202430;
+  padding-bottom: 5rem;
+}
+#latest h2{
+  color: white;
+  font-size: 48px;
+  font-weight: 600;
+  font-family: "Epilogue", sans-serif;
+  padding-top: 3rem;
+  margin: 0;
+}
+#latest h2 span{
+  color: #26a4ff;
+}
+.latest-cards .row .col-6{
+  background-color: #fff;
+  gap: 1rem;
+  width: 600px;
+  height: 150px; 
+  padding: 1rem;
+  padding-left: 3rem;
+}
+.latest-cards .row{
+  padding: 1rem;
+  gap: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.buttons{
+  display: flex;
+  gap: 10px;
+}
+.card-inner{
+  display: flex;
+  gap: 2rem;
+}
+.line{
+  width: 2px;
+  height: 34px;
+  background-color: #D6DDEB;
+}
+.card-text h5{
+  font-family: "Epilogue", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+}
+.card-text p{
+  font-family: "Epilogue", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #515B6F;
+}
+.full-time{
+  width: 85px;
+  height: 34px;
+  border: none;
+  border-radius: 80px;
+  background-color: #56CDAD1A;
+  color: #56CDAD;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: "Epilogue", sans-serif;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.latest-marketing-btn{
+  width: 95px;
+  height: 34px;
+  border: 2px solid #FFB836;
+  border-radius: 80px;
+  background-color: white;
+  color: #FFB836;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: "Epilogue", sans-serif;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.latest-design-btn{
+  width: 70px;
+  height: 34px;
+  border: 2px solid #4640DE;
+  border-radius: 80px;
+  background-color: white;
+  color: #4640DE;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: "Epilogue", sans-serif;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+/* FOOTER */
+footer{
+  background-color: #202430;
+  padding-bottom: 3rem;
+  padding-left: 5rem;
+}
+.angry-grid {
+  display: grid; 
+
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  
+  gap: 0px;
+  height: 100%;
+  
+}
+ 
+#item-0 {
+
+  background-color: #202430; 
+  grid-row-start: 1;
+  grid-column-start: 1;
+
+  grid-row-end: 2;
+  grid-column-end: 3;
+  
+}
+#item-1 {
+
+  background-color: #202430; 
+  grid-row-start: 1;
+  grid-column-start: 3;
+
+  grid-row-end: 2;
+  grid-column-end: 4;
+  
+}
+#item-2 {
+
+  background-color: #202430; 
+  grid-row-start: 1;
+  grid-column-start: 4;
+
+  grid-row-end: 2;
+  grid-column-end: 5;
+  
+}
+#item-3 {
+
+  background-color: #202430; 
+  grid-row-start: 1;
+  grid-column-start: 5;
+
+  grid-row-end: 2;
+  grid-column-end: 7;
+  
+}
+footer p{
+  font-family: "Epilogue", sans-serif;
+  color: #D6DDEB;
+  font-weight: 400;
+  font-size: 16px;
+  padding-top: 2rem;
+}
+.angry-grid h4{
+  font-family: "Epilogue", sans-serif;
+  color: white;
+  font-weight: 600;
+  font-size: 18px;
+}
+.angry-grid li{
+  list-style-type: none;
+}
+.angry-grid li a{
+  text-decoration: none;
+  font-family: "Epilogue", sans-serif;
+  color: #D6DDEB;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 3rem;
+}
+.angry-grid ul{
+  margin: 0;
+  padding: 0;
+  padding-top: 1rem;
+}
+.input-btn input{
+  width: 223px;
+  height: 50px;
+  color: #A8ADB7;
+  font-weight: 400;
+  font-size: 16px;
+  font-family: "Epilogue", sans-serif;
+  padding-left: 1rem;
+  outline: none;
+}
+.input-btn button{
+  width: 130px;
+  height: 50px;
+  border: none;
+  background-color: #4640DE;
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
+  font-family: "Epilogue", sans-serif;
+}
+.footer-end{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1rem;
+}
+.footer-end p{
+  margin: 0;
+  padding: 0;
+}
+.social-icons{
+  display: flex;
+  gap: 2rem;
+}
+.social-icons i{
+  background-color: #363944;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.input-btn{
+  padding-top: 2rem;
+}
